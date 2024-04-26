@@ -1,0 +1,154 @@
+/* 
+Media Queries
+
+/* 
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+/* Small screens, laptops – 769px — 1024px */
+
+@media (max-width: 64em) {
+  html {
+    font-size: 8px;
+  }
+  /* Nav Menu List */
+  .nav .nav-list {
+    font-size: 1.6rem;
+  }
+  /* Nav Header */
+  .nav .header {
+    font-size: 3rem;
+  }
+  /* Icons List */
+  .contact-list .link .icon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  /* Mazen Header */
+  header {
+    font-size: 4.6rem;
+  }
+  /* main image */
+  .image-container .main-image {
+    width: 75%;
+  }
+  /* Services Header */
+  .services h2 {
+    font-size: 3rem;
+  }
+  /* role Specialized */
+  .role .specialized {
+    font-size: 3rem;
+  }
+  /* Years & Clients */
+  .years .target .number {
+    font-size: 2.4rem;
+  }
+  .target span {
+    font-size: 2.2rem;
+  }
+  .role .btn {
+    font-size: 2.2rem;
+  }
+}
+
+/* iPads, Tablets – 481px — 768px. */
+@media (max-width: 48rem) {
+  html {
+    font-size: 7px;
+  }
+  .nav .header {
+    font-size: 2.4rem;
+  }
+  .nav .nav-list {
+    font-size: 1.2rem;
+  }
+  .contact-list {
+    gap: 3rem;
+  }
+  header {
+    font-size: 4rem;
+  }
+  /* Services  */
+  .services {
+    padding: 2.4rem;
+  }
+  .services h2 {
+    font-size: 2.4rem;
+  }
+  .services .nav-list .item {
+    padding-top: 2.4rem;
+  }
+  .role .specialized {
+    font-size: 2.4rem;
+  }
+  .role p {
+    font-size: 1.6rem;
+    line-height: 28px;
+    padding: 2rem 0;
+  }
+  .role .btn {
+    font-size: 2rem;
+    padding: 3px 10px;
+  }
+  .years .target .number {
+    font-size: 2.2rem;
+  }
+  .target span {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 47rem) {
+  html {
+    font-size: 5px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .nav .nav-list {
+    font-size: 1rem;
+  }
+  .nav .header {
+    font-size: 2rem;
+  }
+  .container .image-container {
+    grid-column: inherit;
+  }
+  .image-container .main-image {
+    width: 20%;
+  }
+  .contact-list {
+    gap: 2.4rem;
+  }
+  header {
+    font-size: 3rem;
+  }
+  .services {
+    grid-row: 2;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+  }
+  .services h2 {
+    font-size: 2rem;
+  }
+  .role {
+    text-align: center;
+  }
+  .role .btn {
+    font-size: 1.6rem;
+    padding: 2px 8px;
+  }
+  .years {
+    margin: 0.8rem auto;
+    justify-content: space-evenly;
+    margin-top: 0.8rem;
+    width: 40%;
+  }
+}

@@ -1,0 +1,191 @@
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --text-color: #303030;
+  --background-color: #efefef;
+  --shadow-color: #32323233;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+html {
+  font-size: 10px;
+}
+/* End Global Rules */
+
+/* Start Nav  */
+.nav {
+  display: flex;
+  padding: 1.6rem;
+  box-shadow: 0 0 2rem 0 var(--shadow-color);
+}
+/* Nav list  */
+.nav .nav-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 40%;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 1.8rem;
+  font-family: "Quattrocento", serif;
+  align-items: center;
+}
+/* Targeting Home list Item  */
+.nav .nav-list li:first-of-type {
+  font-weight: 700;
+}
+/* Header Portfolio2Grow  */
+.nav .header {
+  padding-left: 30px;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+/* Header Span 2 character  */
+.header span {
+  color: #aaa;
+}
+/* Social Media List  */
+.contact-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  list-style: none;
+  width: 40%;
+  align-items: center;
+  align-content: space-evenly;
+}
+/* Social Media Icons  */
+.contact-list .link .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--text-color);
+}
+/* End Nav  */
+
+/* Start Container  */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 2.4rem;
+}
+/* container header  */
+header {
+  font-size: 5.6rem;
+  text-align: center;
+}
+/* Services Space */
+.services {
+  padding-left: 1rem;
+}
+.services h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+/* Services list items */
+.services .list-items {
+  padding-left: 1rem;
+  list-style: none;
+}
+.services .list-items .item:first-of-type {
+  padding-top: 1rem;
+}
+/* Services items */
+.services .list-items .item {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.8rem;
+}
+.services .item .icon {
+  font-size: 2.4rem;
+  background: #fafafa;
+  padding: 0.8rem;
+}
+.services p {
+  word-break: break-all;
+  font-size: 1.8rem;
+  padding-left: 1.6rem;
+  padding-bottom: 0.8rem;
+  color: #999;
+}
+.services p:last-of-type {
+  padding-bottom: 0;
+}
+
+/* Image Space */
+.container .image-container {
+  display: grid;
+  grid-column: 2 /3;
+}
+/* main-image Space  */
+.image-container .main-image {
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  border-width: 5px 5px 0;
+  border-color: white;
+  border-style: solid;
+}
+
+/* Role Space */
+
+/* specialized Space  */
+.role .specialized {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+/* role paragraph */
+.role p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #909090;
+  line-height: 32px;
+  padding: 2.4rem 0;
+}
+/* role Button */
+.role .btn {
+  border: none;
+  font-size: 2.4rem;
+  font-weight: 400;
+  background: black;
+  color: #f6f6f6;
+  padding: 5px 15px;
+  font-family: "Quattrocento", serif;
+}
+/* Years of Experience & Clients Number Space  */
+.years {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 50%;
+}
+/* years div Space  */
+.years .target .number {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 0;
+  color: var(--text-color);
+}
+/* Span inside target  */
+.target span {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #909090;
+}
+/* End Container  */
